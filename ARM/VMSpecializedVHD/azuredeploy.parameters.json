@@ -4,15 +4,15 @@
     "parameters": {
         "dnsNameForPublicIP": {
             //必须为小写
-            "value": "leiarmvmpublicip"
+            "value": "gmwpublicip"
         },
         "existingVirtualNetworkName": {
             //虚拟网络名称
-            "value": "LeiARMVNet"
+            "value": "guangmingwang"
         },
         "existingVirtualNetworkResourceGroup": {
             //Resource Group名称
-            "value": "LeiARMRG"
+            "value": "guangmingwang"
         },
         "subnetName": {
             //ARM 模式下，虚拟网络子网名称
@@ -21,11 +21,11 @@
 
         "osDiskVhdUri": {
             //操作系统的VHD文件
-            "value": "https://leiarmstorage.blob.core.chinacloudapi.cn/vhds/LeiASMWeb01-LeiASMWeb01-2017-03-27.vhd"
+            "value": "https://snapshot.blob.core.chinacloudapi.cn/vhds/guangmingwang20170113094336.vhd"
         },
         "vmName": {
             //虚拟机名称
-           "value": "LeiARMVMWeb01"
+           "value": "snapshottest"
         },
         "osType": {
             //操作系统类型
@@ -33,12 +33,12 @@
         },
         "vmSize": {
             //虚拟机实例大小
-            "value": "Standard_D1_V2"
+            "value": "Standard_D14_V2"
         },
         "diagStorageAccountName":{
             //diag 用的Storage Account Name，必须为小写
             //可以与osDiskVhdUri所在的Storage Account Name相同
-             "value": "leiarmstoragediag"
+             "value": "snapshot"
         },
          "availabilitySetName":{
             //高可用集名称
